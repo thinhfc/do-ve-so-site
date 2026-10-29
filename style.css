@@ -1,0 +1,7 @@
+:root{--bg:#FFF8F1;--text:#1E1B4B;--muted:#5B5880;--accent:#BE123C;--card:#FFFFFF;--line:#1E1B4B1A}
+@media (prefers-color-scheme:dark){:root{--bg:#110E26;--text:#F7F4FF;--muted:#B6B0D9;--accent:#FF9CB0;--card:#241F48;--line:#FFFFFF17}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "New York",Georgia,serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}h1{font-size:2rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.25rem;margin-top:2em}a{color:var(--accent)}.kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;font-weight:600}
+.lang{display:flex;gap:12px;margin:16px 0 24px}.lang a{font-weight:600}section{background:var(--card);border:.5px solid var(--line);border-radius:20px;padding:4px 20px 16px;margin-top:24px}
+footer{color:var(--muted);font-size:.9rem;margin-top:40px}
